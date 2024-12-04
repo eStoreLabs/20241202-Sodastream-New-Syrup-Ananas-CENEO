@@ -227,6 +227,12 @@ body {
   margin: 0 auto;
   padding: 5px 5px;
 }
+#es-rc-content.es-rc .es-photo__img {
+  margin-left: -1%;
+}
+#es-rc-content.es-rc .es-photo__img--syrups {
+  margin: 0 auto;
+}
 #es-rc-content.es-rc .es-triple__title {
   position: relative;
   margin: 0;
@@ -1025,6 +1031,13 @@ body {
   }
   #es-rc-content.es-rc .es-photo__text {
     font-size: 36px;
+  }
+  #es-rc-content.es-rc .es-photo__img {
+    max-width: 100%;
+    margin-left: -11%;
+  }
+  #es-rc-content.es-rc .es-photo__img--syrups {
+    margin: 0 auto;
   }
   #es-rc-content.es-rc .es-triple {
     margin-top: -100px;

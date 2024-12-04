@@ -299,6 +299,13 @@ $bg-primary: #e8e2d4;
       margin: 0 auto;
       padding: 5px 5px;
     }
+
+    &__img {
+      margin-left: -1%;
+      &--syrups {
+        margin: 0 auto;
+      }
+    }
   }
 
   .es-triple {
@@ -1325,6 +1332,15 @@ $bg-primary: #e8e2d4;
     .es-photo {
       &__text {
         font-size: 36px;
+      }
+
+      &__img {
+        max-width: 100%;
+        margin-left: -11%;
+
+        &--syrups {
+          margin: 0 auto;
+        }
       }
     }
 
