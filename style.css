@@ -420,9 +420,9 @@
   display: block;
   max-width: 100%;
   position: absolute;
-  max-width: 30%;
-  top: -35%;
-  right: 10%;
+  max-width: 23%;
+  top: -13%;
+  right: 17%;
 }
 #es-rc-content.es-rc .es-lemonade__subtitle {
   margin-bottom: 10px;
@@ -779,12 +779,6 @@
     font-size: 42px;
     margin-right: 50px;
   }
-  #es-rc-content.es-rc .es-recipes__img--night-desktop {
-    display: block;
-  }
-  #es-rc-content.es-rc .es-recipes__img--night-mobile {
-    display: none;
-  }
   #es-rc-content.es-rc .es-recipes__day-night-recipe-content--first {
     margin-top: -105px;
   }
@@ -816,13 +810,6 @@
   }
   #es-rc-content.es-rc .es-recipes__day-night-recipe-content {
     font-size: 18px;
-  }
-  #es-rc-content.es-rc .es-recipes__day-night-recipe-content--dark {
-    position: absolute;
-    top: 34%;
-    left: 0;
-    z-index: 1;
-    color: #ffffff;
   }
   #es-rc-content.es-rc .es-lemonade__content {
     display: flex;
@@ -863,6 +850,24 @@
   }
   #es-rc-content.es-rc .es-lemonade__subtitle {
     font-size: 40px;
+  }
+}
+@media screen and (min-width: 825px) {
+  #es-rc-content.es-rc .es-recipes__img--night-desktop {
+    display: block;
+  }
+  #es-rc-content.es-rc .es-recipes__img--night-mobile {
+    display: none;
+  }
+  #es-rc-content.es-rc .es-recipes__day-night-recipe-content--first {
+    margin-top: -105px;
+  }
+  #es-rc-content.es-rc .es-recipes__day-night-recipe-content--dark {
+    position: absolute;
+    top: 38%;
+    left: 0;
+    z-index: 1;
+    color: #ffffff;
   }
 }
 @media screen and (min-width: 998px) {
@@ -958,7 +963,7 @@
   #es-rc-content.es-rc .es-recipes__day-night-recipe-content {
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 24px;
+    font-size: 22px;
   }
   #es-rc-content.es-rc .es-recipes__day-night-label {
     font-size: 132px;
@@ -1127,6 +1132,7 @@
   #es-rc-content.es-rc .es-recipes__day-night-recipe-content--dark {
     position: absolute;
     top: 41%;
+    font-size: 24px;
   }
   #es-rc-content.es-rc .es-recipes__day-night-recipe-content-title {
     font-size: 48px;

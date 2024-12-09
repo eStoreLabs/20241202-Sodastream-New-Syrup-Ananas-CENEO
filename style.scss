@@ -523,9 +523,9 @@ $bg-primary: #e8e2d4;
     &__title-pepper {
       @include img;
       position: absolute;
-      max-width: 30%;
-      top: -35%;
-      right: 10%;
+      max-width: 23%;
+      top: -13%;
+      right: 17%;
     }
 
     &__subtitle {
@@ -988,16 +988,6 @@ $bg-primary: #e8e2d4;
     }
 
     .es-recipes {
-      &__img {
-        &--night {
-          &-desktop {
-            display: block;
-          }
-          &-mobile {
-            display: none;
-          }
-        }
-      }
       &__day-night-recipe-content {
         &--first {
           margin-top: -105px;
@@ -1038,16 +1028,6 @@ $bg-primary: #e8e2d4;
 
       &__day-night-recipe-content {
         font-size: 18px;
-      }
-
-      &__day-night-recipe-content {
-        &--dark {
-          position: absolute;
-          top: 34%;
-          left: 0;
-          z-index: 1;
-          color: $secondary;
-        }
       }
     }
 
@@ -1110,6 +1090,38 @@ $bg-primary: #e8e2d4;
       }
     }
   }
+
+  @media screen and (min-width: 825px) {
+    .es-recipes {
+      &__img {
+        &--night {
+          &-desktop {
+            display: block;
+          }
+          &-mobile {
+            display: none;
+          }
+        }
+      }
+
+      &__day-night-recipe-content {
+        &--first {
+          margin-top: -105px;
+        }
+      }
+
+      &__day-night-recipe-content {
+        &--dark {
+          position: absolute;
+          top: 38%;
+          left: 0;
+          z-index: 1;
+          color: $secondary;
+        }
+      }
+    }
+  }
+
   @media screen and (min-width: 998px) {
     .es-kv {
       &__title {
@@ -1236,7 +1248,7 @@ $bg-primary: #e8e2d4;
       &__day-night-recipe-content {
         padding-left: 30px;
         padding-right: 30px;
-        font-size: 24px;
+        font-size: 22px;
       }
 
       &__day-night-label {
@@ -1472,6 +1484,7 @@ $bg-primary: #e8e2d4;
         &--dark {
           position: absolute;
           top: 41%;
+          font-size: 24px;
         }
       }
       &__day-night-recipe-content-title {
