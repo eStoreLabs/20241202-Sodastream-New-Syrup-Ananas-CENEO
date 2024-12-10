@@ -245,7 +245,7 @@ $bg-primary: #e8e2d4;
       &--second {
         position: absolute;
         top: 44%;
-        left: 0;
+        left: -10px;
         color: $bg-primary;
       }
     }
@@ -673,6 +673,14 @@ $bg-primary: #e8e2d4;
     }
   }
 
+  @media screen and (min-width: 400px) {
+    .es-possibilities {
+      &__title-container {
+        top: -45px;
+      }
+    }
+  }
+
   @media screen and (min-width: 500px) {
     .es-recipes {
       &__day-night-recipe-content {
@@ -850,6 +858,10 @@ $bg-primary: #e8e2d4;
         &--second {
           font-size: 35px;
         }
+
+        &--second {
+          left: 0;
+        }
       }
     }
 
@@ -953,8 +965,8 @@ $bg-primary: #e8e2d4;
 
       &__title-group {
         position: absolute;
-        max-width: 600px;
-        left: 25px;
+        max-width: 455px;
+        left: 10%;
         top: -3%;
         margin: 0 auto;
         text-align: center;
@@ -1021,7 +1033,7 @@ $bg-primary: #e8e2d4;
           top: 10%;
         }
         &--second {
-          top: 2%;
+          top: -3%;
           left: 0%;
         }
       }
@@ -1063,7 +1075,7 @@ $bg-primary: #e8e2d4;
 
       &__texts {
         max-width: 50%;
-        padding-left: 10%;
+        padding-left: 2%;
       }
 
       &__text {
@@ -1139,7 +1151,6 @@ $bg-primary: #e8e2d4;
       }
 
       &__title-group {
-        max-width: 455px;
         left: 10%;
         top: -1%;
       }
@@ -1252,14 +1263,12 @@ $bg-primary: #e8e2d4;
       }
 
       &__day-night-label {
-        font-size: 132px;
-
         &--first {
-          top: 7.4%;
+          top: 11.4%;
           left: 40%;
         }
         &--second {
-          top: 0.3%;
+          top: -2.1%;
           left: 3.4%;
         }
       }
@@ -1332,7 +1341,7 @@ $bg-primary: #e8e2d4;
       }
 
       &__texts {
-        margin-top: -200px;
+        margin-top: -100px;
         padding-left: 0;
       }
     }
@@ -1363,7 +1372,7 @@ $bg-primary: #e8e2d4;
         &--first,
         &--second,
         &--third {
-          font-size: 170px;
+          font-size: 160px;
         }
 
         &--first {
@@ -1390,7 +1399,7 @@ $bg-primary: #e8e2d4;
       min-height: 1024px;
 
       &__title-group {
-        max-width: 614px;
+        max-width: 502px;
         left: 12%;
         top: 3%;
       }
@@ -1487,6 +1496,18 @@ $bg-primary: #e8e2d4;
           font-size: 24px;
         }
       }
+
+      &__day-night-label {
+        font-size: 132px;
+
+        &--first {
+          top: 7.4%;
+        }
+        &--second {
+          top: -2.1%;
+        }
+      }
+
       &__day-night-recipe-content-title {
         font-size: 48px;
 
@@ -1532,6 +1553,16 @@ $bg-primary: #e8e2d4;
         &--grapefruit {
           margin-top: 6%;
           margin-right: 9%;
+        }
+      }
+    }
+
+    .es-triple {
+      &__desc-mobile {
+        &--first,
+        &--second,
+        &--third {
+          font-size: 170px;
         }
       }
     }
